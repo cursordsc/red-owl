@@ -1,0 +1,20 @@
+<settings>
+    <setting name="@mysql.database" value="" />
+    <setting name="@mysql.username" value="" />
+    <setting name="@mysql.password" value="" />
+    <setting name="@mysql.hostname" value="localhost" />
+    <setting name="@mysql.port" value="3306" />
+    
+    <setting name="@mysql.forums_database" value="" />
+    <setting name="@mysql.forums_username" value="" />
+    <setting name="@mysql.forums_password" value="" />
+    <setting name="@mysql.forums_hostname" value="" />
+    <setting name="@mysql.forums_port" value="3306" />
+    
+    <setting name="@mysql.logs_database" value="" />
+    <setting name="@mysql.logs_username" value="" />
+    <setting name="@mysql.logs_password" value="" />
+    <setting name="@mysql.logs_hostname" value="localhost" />
+    <setting name="@mysql.logs_port" value="3306" />
+    <setting name="taksi.flagsDeleted" value="[true]"></setting>
+</settings>

@@ -1,0 +1,6 @@
+<meta>
+    <script src="client.lua" type="client" cache="false"/>
+    <file src="files/low.png" />
+    <file src="files/med.png" />
+    <file src="files/normal.png" />
+</meta>

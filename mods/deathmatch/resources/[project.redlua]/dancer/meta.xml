@@ -1,0 +1,7 @@
+<meta>
+	<info author="Dizzy" description="RED:LUA - Danscı Sistemi" version="1.0"/>
+
+	<oop>true</oop>
+	<script src="s_dancers.lua" type="server"/>
+	<script src="c_dancers.lua" type="client" cache="false"/>
+</meta>

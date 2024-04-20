@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel='stylesheet' href='css/font-awesome.min.css'>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body class="animated fadeIn">
+		<form class="form">
+			<div class="Wrapper">
+			  <div class="Input">
+			    <input type="text" id="input" class="Input-text" name="username" placeholder="Kullanıcı Adı">
+			  </div>
+			  <br>
+			  <div class="Input">
+			    <input style="margin-top:8px" type="password" id="input" name="password" class="Input-text" placeholder="Şifre">
+			  </div>
+			  <div class="button">
+			  		<a class="left register-button">Kayıt Ol</a>
+			  		<a class="right sign-in-button">Giris Yap</a>
+			  </div>
+			</div>
+		</form>
+
+		<error class="animated" style="display:none;"></error>
+
+		<script src='js/jquery.min.js'></script>
+
+		<!-- Javascript kodları her zaman en alta yazılır, yoksa sayfa açılırken kasar -->
+
+		<script>
+			var is_open = 0;
+			function error(val) {
+				if(is_open == 0) {
+					is_open = 1
+					var className = 'error';
+					$(className).css({'display':'inline-block','opacity':'0'});
+					$(className).html(val);
+					$(className).addClass('fadeIn');
+					setTimeout(function() {
+						$(className).css({'opacity':'1'});
+						$(className).removeClass('fadeIn');
+					},1200);
+
+					setTimeout(function() {
+						$(className).addClass('fadeOut');
+						setTimeout(function() {
+							is_open = 0
+							$(className).css({'display':'none','opacity':'0'});
+							$(className).html(val);
+							$(className).removeClass('fadeOut');
+						},1200);
+					},3500);
+				}
+				// bunu mantığı anlatmak için yazdım.
+				// bak şimdi 
+			};
+		</script>
+
+		<script src="js/mtaevents.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>

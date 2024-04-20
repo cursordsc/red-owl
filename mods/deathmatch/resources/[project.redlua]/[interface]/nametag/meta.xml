@@ -1,0 +1,55 @@
+<meta>
+	<script src="shared.lua" type="shared" cache="false" />
+	<script src="server.lua" type="server" />
+    <script src="nametag.lua" type="client" cache="false" />
+	
+	<file src="icons/v1.png" />
+	<file src="icons/v2.png" />
+	<file src="icons/v3.png" />
+	
+    <file src="icons/a1.png" />
+    <file src="icons/a2.png" />
+    <file src="icons/a3.png" />
+    <file src="icons/a4.png" />
+    <file src="icons/a5.png" />
+    <file src="icons/a6.png" />
+    <file src="icons/a7.png" />
+    <file src="icons/a8.png" />
+    <file src="icons/a9.png" />
+    <file src="icons/afk.png" />
+    <file src="icons/dead.png" />
+    <file src="icons/handcuffs.png" />
+    <file src="icons/injury.png" />
+    <file src="icons/window.png" />
+    <file src="icons/isbasi.png" />
+    <file src="icons/seatbelt.png" />
+    <file src="icons/writing.png" />
+    <file src="icons/phone.png" />
+	
+    <file src="icons/stickers/s1.png" />
+	<file src="icons/stickers/s2.png" />
+	<file src="icons/stickers/s3.png" />
+	<file src="icons/stickers/s4.png" />
+	<file src="icons/stickers/s5.png" />
+	<file src="icons/stickers/s6.png" />
+	<file src="icons/stickers/s7.png" />
+	<file src="icons/stickers/s8.png" />
+	<file src="icons/stickers/s9.png" />
+	<file src="icons/stickers/s10.png" />
+	<file src="icons/stickers/s11.png" />
+	<file src="icons/stickers/s12.png" />
+	<file src="icons/stickers/s13.png" />
+	<file src="icons/stickers/s14.png" />
+	<file src="icons/stickers/s15.png" />
+	<file src="icons/stickers/s16.png" />
+	<file src="icons/stickers/s17.png" />
+	<file src="icons/stickers/s18.png" />
+	<file src="icons/stickers/s19.png" />
+
+	<export function="setNametagFont" type="server" />
+    <export function="getNametagFont" type="server" />
+    <export function="setNametagBar" type="server" />
+    <export function="getNametagBar" type="server" />
+	
+    <oop>true</oop>
+</meta>

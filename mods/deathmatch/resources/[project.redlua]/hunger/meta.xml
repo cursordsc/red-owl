@@ -1,0 +1,8 @@
+
+<meta>
+	<info author="Dizzy" version="0.1" description="RED:LUA Ekibi tarafından baştan geliştirilmiş optimize açlık sistemi" type="script"/>
+
+	<oop>true</oop>
+	<script src="aclikC.lua" type="client" cache="false"/>
+	<script src="aclikS.lua" type="server" />
+</meta>

@@ -1,0 +1,114 @@
+<meta>    
+    <script src="c_backup_bleepers.lua" type="client" />
+    <file src="TruckBackingUpBeep.mp3" />
+    
+    <script src="c_realism_system.lua" type="client" />
+    <script src="s_realism_system.lua" type="server" />
+
+    <script src="disablevehicleguns_s.lua" type="server" />
+
+    <script src="s_reload.lua" type="server" />
+    <script src="c_reload.lua" type="client" />
+    
+    <script src="s_peds.lua" type="server" />
+	<script src="c_peds.lua" type="client" />
+    <script src="c_ped_look_at.lua" type="client" />
+    
+    <script src="c_vehicle_crash.lua" type="client" />
+    <script src="s_vehicle_crash.lua" type="server" />
+    
+    <script src="s_glowstick_system.lua" type="server" />
+    <script src="c_glowstick_system.lua" type="client" />
+    
+    <script src="c_metal_detectors.lua" type="client" />
+    <script src="c_cruise_control.lua" type="client" />
+
+    <script src="s_cruisecontrol.lua" type="server" />
+    
+    <script src="s_enginebreak.lua" type="server" />
+
+    <script src="indicators_s.lua" type="server" />
+    <script src="rect.lua" type="client" />
+
+    
+
+    <script src="c_speedo.lua" type="client" />
+    <file src="disc.png" />
+    <file src="fueldisc.png" />
+
+
+    
+    <file src="reload.wav" />
+    <file src="horn.wav" />
+
+    
+    <script src="c_thermal_vision.lua" type="client" />
+    
+    <script src="water.lua" type="client" cache="false"/>
+    
+    <script src="c_emitters.lua" type="client" />
+    <script src="s_emitters.lua" type="server" />
+    <script src="c_admin_fire_resistance.lua" type="client" />
+    
+    <script src="c_weapon_jams.lua" type="client" />
+    <script src="s_weapon_jams.lua" type="server" />
+    <script src="s_crashed.lua" type="server" />
+    <script src="s_ck_corpses.lua" type="server" />
+    <script src="c_ck.lua" type="client" />
+    <export function="addCharacterKillBody" type="server" />
+    
+    
+    <script src="s_alarm.lua" type="server" />
+    <script src="c_alarm.lua" type="client" />
+    
+    <file src="siren.wav" />
+    <script src="c_unoccupied_sirens.lua" type="client" />
+    <script src="c_fpview.lua" type="client" />
+
+    <script src="s_drunk.lua" type="server" />
+    
+    <script src="c_heli_rotors.lua" type="client" />
+    <script src="c_carrealism.lua" type="client" />
+    
+    <export function="hideSpeedo" type="client" />
+    <export function="showSpeedo" type="client" />
+    
+    <script src="s_cigar.lua" type="server" />
+    <script src="c_cigar.lua" type="client" />
+    <export function="isLocalPlayerSmoking" type="client" />
+
+    <export function="isCcEnabled" type="client" />
+    <export function="getDistanceTraveled" type="client" />
+    
+    <script src="s_police_radar.lua" type="server" />
+    <script src="c_police_radar.lua" type="client" />
+    <file src="policebeep.mp3" />
+
+    <script src="c_trafficlights.lua" type="client"/>
+
+    <script src="handbrake_s.lua" type="server" />
+    <script src="handbrake_c.lua" type="client" />
+    <export function="doHandbrake" type="client" />
+
+    <file src="wheels/wheel_gn1.dff" download="false" />
+    <file src="wheels/wheel_gn2.dff" download="false" />
+    <file src="wheels/wheel_gn3.dff" download="false" />
+    <file src="wheels/wheel_gn4.dff" download="false" />
+    <file src="wheels/wheel_gn5.dff" download="false" />
+    <file src="wheels/wheel_lr1.dff" download="false" />
+    <file src="wheels/wheel_lr2.dff" download="false" />
+    <file src="wheels/wheel_lr3.dff" download="false" />
+    <file src="wheels/wheel_lr4.dff" download="false" />
+    <file src="wheels/wheel_lr5.dff" download="false" />
+    <file src="wheels/wheel_or1.dff" download="false" />
+    <file src="wheels/wheel_sr1.dff" download="false" />
+    <file src="wheels/wheel_sr2.dff" download="false" />
+    <file src="wheels/wheel_sr3.dff" download="false" />
+    <file src="wheels/wheel_sr4.dff" download="false" />
+    <file src="wheels/wheel_sr5.dff" download="false" />
+    <file src="wheels/wheel_sr6.dff" download="false" />
+    <script src="wheels/script.lua" type="client" />
+	
+
+    <min_mta_version server="1.3.1-9.04935"></min_mta_version>
+</meta>

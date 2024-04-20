@@ -1,0 +1,6 @@
+﻿<meta>
+	<info author="Dizzy" type="script" description="RED:LUA - Chance-system" version="1.0"/>
+	<oop>true</oop>
+
+	<script src="server.lua" type="server"/>
+</meta>

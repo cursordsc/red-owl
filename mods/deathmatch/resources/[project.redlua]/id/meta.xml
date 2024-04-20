@@ -1,0 +1,6 @@
+<meta>
+	<info author="Dizzy" type="script" description="RED:LUA - ID System"/>
+
+	<oop>true</oop>
+	<script src="server.lua" type="server" />
+</meta>

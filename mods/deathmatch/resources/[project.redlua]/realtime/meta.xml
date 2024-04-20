@@ -1,0 +1,6 @@
+<meta>
+	<info author="Dizzy" description="RED:LUA - Real Time System" version="0.1"/>
+
+	<oop>true</oop>
+	<script src="server.lua" type="server" />
+</meta>

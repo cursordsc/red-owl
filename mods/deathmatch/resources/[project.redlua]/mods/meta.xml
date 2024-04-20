@@ -1,0 +1,39 @@
+<meta>
+
+	<oop>true</oop>
+
+	<script src="c_mods_system.lua" type="client" cache="false" />
+	<export function="getModdedSkins" type="client" />
+	
+	<file src="mods/fixes/interior24.col"/>
+	
+	<file src="mods/icons.txd"/>
+	<file src="mods/disabledicon.dff"/>
+		
+	<file src="ls/barrio1_lae.txd"/>
+	<file src="ls/idlewood6_detail.txd"/>
+
+
+
+	<!-- HSU Mod / Adams -->
+	<file src="mods/hsu.txd"/>
+	<file src="mods/hsu.dff"/>
+	
+	<file src="mods/levi.dff"/>
+	<file src="mods/levi.txd"/>
+	
+
+	<file src="mods/items/cellphone.txd"/>
+	<file src="mods/items/cellphone.dff"/>
+
+
+	<file src="items/cola.txd"/>
+	<file src="items/cola.dff"/>
+
+	<file src="items/armour.txd"/>
+	<file src="items/armour.dff"/>
+
+	<file src="items/Ciggy1.txd"/>
+	<file src="items/Ciggy1.dff"/>
+	<file src="items/exhale.dff"/>
+</meta>

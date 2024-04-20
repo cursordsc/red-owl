@@ -1,0 +1,7 @@
+<meta>
+    <script src="client.lua" type="client" />
+    <script src="server.lua" type="server" />
+    
+    <file src="files/font.ttf" />
+    <file src="files/mechanic.mp3" />
+</meta>

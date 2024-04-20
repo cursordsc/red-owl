@@ -1,0 +1,17 @@
+<meta>
+    <info author="Dizzy" description="RED:LUA - Lift System" version="0.1"/>
+	
+	<oop>true</oop>
+    <script src="server.lua"/>
+    <script src="client.lua" type="client"/>
+	
+	<file src="dosyalar/liftposts.dff"/>
+	<file src="dosyalar/liftposts.col"/>
+	<file src="dosyalar/ramps.col"/>
+	<file src="dosyalar/ramps.dff"/>
+	<file src="dosyalar/lifts.txd"/>
+
+	<file src="dosyalar/stand.txd"/>
+	<file src="dosyalar/stand.dff"/>
+	<file src="dosyalar/stand.col"/>
+</meta>

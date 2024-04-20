@@ -1,0 +1,10 @@
+<meta>
+
+    <!--
+        class taxi
+        @author Denetim
+    -->
+
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" cache="false" />
+</meta>

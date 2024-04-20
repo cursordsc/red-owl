@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.container {
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    width: 600px;
+    height: 350px;
+    color: white;
+}
+
+.paper1 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.741);
+    width: 600px;
+    height: 350px;
+    transform: rotate(2deg);
+}
+
+.paper2 {
+    position: absolute;
+    background-color: rgba(15,15,15);
+    width: 600px;
+    height: 350px;
+}
+
+.content {
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    width: 600px;
+    height: 350px;
+}
+
+.social {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+    bottom: 25px;
+    transform: skew(-15deg);
+    padding-left: 15px;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: none;
+    background-color: rgb(44,44,44);
+    border: 0;
+    outline: none;
+    font-weight: bold;
+}
+
+.social {
+    --color: rgb(190,190,190);
+    --hover: rgb(192, 17, 17);
+  }
+
+button {  
+    color: var(--color);
+    transition: box-shadow 0.15s;
+    
+    &:hover,
+    &:focus { 
+      border-color: var(--hover);
+    }
+  }
+
+
+.social:hover,
+.social:focus {
+    box-shadow: inset 9.4em 0 0 0 var(--hover);
+}
+
+.text {
+    top: 15px;
+    position:absolute;
+    font-family: 'Montserrat', sans-serif;
+    width: 600px;
+    height: 50px;
+    color: rgb(200,200,200);
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.litte {
+    top: 70px;
+    position:absolute;
+    font-family: system-ui;
+    width: 600px;
+    height: 50px;
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    left: 25px;
+}
+
+.discord {
+    position:absolute;
+    width: 560px;
+    background-color: #282626;
+    height: 45px;
+    border-radius: 9px 9px 0px 0px;
+    top: 105px;
+    left: 20px;
+    height: 35px;
+}
+
+.discord h1 {
+    position:absolute;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(200,200,200);
+    left: 60px;
+    top: -2px;
+}
+
+.discord i {
+    position:absolute;
+    left: 20px;
+    top: 8px;
+    font-size: 20px;
+}
+
+.facebook {
+    position:absolute;
+    width: 560px;
+    background-color: #282626;
+    height: 45px;
+    border-radius: 0px 0px 0px 0px;
+    top: 142px;
+    left: 20px;
+    height: 35px;
+}
+
+.facebook h1 {
+    position:absolute;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(200,200,200);
+    left: 60px;
+    top: -2px;
+}
+
+.facebook i {
+    position:absolute;
+    left: 20px;
+    top: 8px;
+    font-size: 20px;
+}
+
+.instagram {
+    position:absolute;
+    width: 560px;
+    background-color: #282626;
+    height: 45px;
+    border-radius: 0px 0px 0px 0px;
+    top: 179px;
+    left: 20px;
+    height: 35px;
+}
+
+.instagram h1 {
+    position:absolute;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(200,200,200);
+    left: 60px;
+    top: -2px;
+}
+
+.instagram i {
+    position:absolute;
+    left: 20px;
+    top: 8px;
+    font-size: 20px;
+}
+
+.whatsapp {
+    position:absolute;
+    width: 560px;
+    background-color: #282626;
+    height: 45px;
+    border-radius: 0px 0px 9px 9px;
+    top: 216px;
+    left: 20px;
+    height: 35px;
+}
+
+.whatsapp h1 {
+    position:absolute;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(200,200,200);
+    left: 60px;
+    top: -2px;
+}
+
+.whatsapp i {
+    position:absolute;
+    left: 20px;
+    top: 8px;
+    font-size: 20px;
+}
+
+.jobs {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: -120px;
+    margin-top: auto;
+    margin-bottom: auto;
+    bottom: 25px;
+    transform: skew(-15deg);
+    padding-left: 15px;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: none;
+    background-color: rgb(44,44,44);
+    border: 0;
+    outline: none;
+    font-weight: bold;
+}
+
+.jobs {
+    --color: rgb(190,190,190);
+    --hover: rgb(192, 17, 17);
+  }
+
+button {  
+    color: var(--color);
+    transition: box-shadow 0.15s;
+    
+    &:hover,
+    &:focus { 
+      border-color: var(--hover);
+    }
+  }
+
+
+.jobs:hover,
+.jobs:focus {
+    box-shadow: inset 9.4em 0 0 0 var(--hover);
+}
+
+.tree {
+    position:absolute;
+    width: 560px;
+    background-color: #282626;
+    height: 45px;
+    border-radius: 9px 9px 0px 0px;
+    top: 105px;
+    left: 20px;
+    height: 35px;
+}
+
+.tree h1 {
+    position:absolute;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(200,200,200);
+    left: 60px;
+    top: -2px;
+}
+
+.tree i {
+    position:absolute;
+    left: 20px;
+    top: 8px;
+    font-size: 20px;
+}
+
+.fish {
+    position:absolute;
+    width: 560px;
+    background-color: #282626;
+    height: 45px;
+    border-radius: 0px 0px 0px 0px;
+    top: 142px;
+    left: 20px;
+    height: 35px;
+}
+
+.fish h1 {
+    position:absolute;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(200,200,200);
+    left: 60px;
+    top: -2px;
+}
+
+.fish i {
+    position:absolute;
+    left: 20px;
+    top: 8px;
+    font-size: 20px;
+}
+
+.cocaine {
+    position:absolute;
+    width: 560px;
+    background-color: #282626;
+    height: 45px;
+    border-radius: 0px 0px 0px 0px;
+    top: 179px;
+    left: 20px;
+    height: 35px;
+}
+
+.cocaine h1 {
+    position:absolute;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(200,200,200);
+    left: 60px;
+    top: -2px;
+}
+
+.cocaine i {
+    position:absolute;
+    left: 20px;
+    top: 8px;
+    font-size: 20px;
+}
+
+.truck {
+    position:absolute;
+    width: 560px;
+    background-color: #282626;
+    height: 45px;
+    border-radius: 0px 0px 9px 9px;
+    top: 216px;
+    left: 20px;
+    height: 35px;
+}
+
+.truck h1 {
+    position:absolute;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(200,200,200);
+    left: 60px;
+    top: -2px;
+}
+
+.truck i {
+    position:absolute;
+    left: 20px;
+    top: 8px;
+    font-size: 20px;
+}

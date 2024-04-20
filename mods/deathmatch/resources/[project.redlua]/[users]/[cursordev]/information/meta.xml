@@ -1,0 +1,27 @@
+<meta>
+
+    <script src="client.lua" type="client" cache="false" />
+ 
+    <file src="jobs.html" />
+    <file src="social.html" />
+    <file src="css/style.css" />
+    <file src="css/awesome.css" />
+
+    <file src="webfonts/fa-brands-400.eot" />
+    <file src="webfonts/fa-brands-400.svg" />
+    <file src="webfonts/fa-brands-400.ttf" />
+    <file src="webfonts/fa-brands-400.woff" />
+    <file src="webfonts/fa-brands-400.woff2" />
+
+    <file src="webfonts/fa-regular-400.eot" />
+    <file src="webfonts/fa-regular-400.svg" />
+    <file src="webfonts/fa-regular-400.ttf" />
+    <file src="webfonts/fa-regular-400.woff" />
+    <file src="webfonts/fa-regular-400.woff2" />
+
+    <file src="webfonts/fa-solid-900.eot" />
+    <file src="webfonts/fa-solid-900.svg" />
+    <file src="webfonts/fa-solid-900.ttf" />
+    <file src="webfonts/fa-solid-900.woff" />
+    <file src="webfonts/fa-solid-900.woff2" />
+</meta>

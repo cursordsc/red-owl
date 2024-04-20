@@ -1,0 +1,13 @@
+<meta>
+    <download_priority_group>1</download_priority_group>
+    <script src="client.lua" type="client" />
+    <file src="MPG_8.txd" type="client" />
+    <file src="MPG_8.dff" type="client" />
+    <file src="MPG_1.dff" type="client" />
+    <file src="MPG_2.dff" type="client" />
+    <file src="MPG_1.col" type="client" />
+    <file src="MPG_2.col" type="client" />
+    <file src="MPG_8.col" type="client" />
+    <info type="script" author="+Monster [Monster MPG]" version="1.0" description="www.youtube.com/c/MonsterMPG"></info>
+    <map src="[MPG]Grotti.map" dimension="0"></map>
+</meta>

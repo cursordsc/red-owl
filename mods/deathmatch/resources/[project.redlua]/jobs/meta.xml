@@ -1,0 +1,108 @@
+﻿<meta>
+
+	<oop>true</oop>
+
+	<script src="s_job_system.lua" type="server"/>
+	<script src="c_job_system.lua" type="client"/>
+
+	<script src="s_job_admins.lua" type="server"/>
+
+	<script src="jobs_g.lua" type="shared"/>
+
+	<export function="fetchJobInfoForOnePlayer" type="server"/>
+	<export function="getJobTitleFromID" type="server"/>
+	<export function="getJobTitleFromID" type="client" cache="false" />
+    <export function="isMyJobVehicle" type="client" />
+    <export function="isJobVehicle" type="client" />
+    <export function="deletePlayerVan" type="server" />
+	<export function="managePizzaszallito" type="client" />
+	
+	<file src="whitedot.png" />
+	<file src="files/font.ttf" type="client" />
+
+	<!-- Taksi Mesleği -->
+	<script src="taksi/s_taxi_job.lua" type="server"/>
+	<script src="taksi/c_taxi_job.lua" type="client" cache="false" />
+
+	<script src="taximeter/g_taximeter.lua" type="server"/>
+	<script src="taximeter/g_taximeter.lua" type="client" cache="false"/>
+	<script src="taximeter/s_taximeter.lua" type="server"/>
+	<script src="taximeter/c_taximeter.lua" type="client" cache="false"/>	
+	<file src="taximeter/images/base_driver.png" />
+	<file src="taximeter/images/base_pax.png" />
+	<file src="taximeter/images/btn.png" />
+	<file src="taximeter/images/btn_on.png" />
+	<file src="taximeter/images/btn_active.png" />
+	
+	<!-- Mekanik Mesleği (/setjob ID 5) -->
+	<script src="mechanic/s_mechanic_job.lua" type="server"/>
+	<script src="mechanic/s_mechanic_previews.lua" type="server"/>
+	<script src="mechanic/c_mechanic_job.lua" type="client" cache="false" />
+
+	<!-- Dolmuş Mesleği -->
+	<script src="dolmus/c_dolmus.lua" type="client" cache="false"/>
+	<script src="dolmus/s_dolmus.lua" type="server"/>
+
+	<!-- Sigara Mesleği -->
+	<script src="sigara/c_sigara.lua" type="client" cache="false"/>
+	<script src="sigara/s_sigara.lua" type="server"/>
+
+	<!-- Çekici Mesleği -->
+	<!--<script src="cekici/cekiciG.lua" type="shared" cache="false"/>
+    <script src="cekici/cekiciS.lua" type="server"/>
+    <script src="cekici/cekiciC.lua" type="client" cache="false"/>
+    
+    <file src="cekici/files/cekiciarac.txd" type="client"/>
+    <file src="cekici/files/cekiciarac.dff" type="client"/>-->
+
+	<!-- Maden mesleği (Tüm madenler içinde) -->
+   	<script src="maden-meslegi/tas.lua" type="server" />
+   	<script src="maden-meslegi/altin.lua" type="server" />
+   	<script src="maden-meslegi/demir.lua" type="server" />
+   	<script src="maden-meslegi/komur.lua" type="server" />
+   	<script src="maden-meslegi/bakir.lua" type="server" />	
+	<script src="maden-meslegi/borsa.lua" type="server" />
+    <script src="maden-meslegi/yazilar.lua" type="client"/>	
+
+	<!-- Balık mesleği -->
+	<map src="balik-meslegi/balik-system-map/balik-system-map.map" dimension="0"></map>
+
+    <script src="balik-meslegi/balik-system-map/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="balik-meslegi/balik-system-map/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+
+	<script src="balik-meslegi/s_balik.lua" type="server"/>
+	<script src="balik-meslegi/c_balik.lua" type="client"/>
+
+
+	<!-- Kargo Mesleği -->
+
+	<script src="kargo/client.lua" type="client" cache="false" />
+    <script src="kargo/server.lua" type="server" />
+
+	<!-- Oto Kurtarma -->
+	<script src="otokurtarma/client.lua" type="client" cache="false" />
+    <script src="otokurtarma/server.lua" type="server" />
+	<script src="otokurtarma/global.lua" type="shared" />
+	<file src="otokurtarma/files/button.png" />
+	<file src="otokurtarma/files/key.png" />
+	<file src="otokurtarma/files/qkey.png" />
+	<file src="otokurtarma/files/up.mp3" />
+	<file src="otokurtarma/files/carJack.txd" />
+	<file src="otokurtarma/files/carJack.dff" />
+	<file src="otokurtarma/files/carJack.col" />
+
+	<!-- Çöp Mesleği -->
+
+	<script src="cop/client.lua" type="client" cache="false" />
+    <script src="cop/server.lua" type="server" />
+	<script src="cop/global.lua" type="shared" />
+	<file src="cop/files/button.png" />
+	<file src="cop/files/key.png" />
+	<file src="cop/files/open.mp3" />
+	<file src="cop/files/close.mp3" />
+
+	<!-- Pizza Mesleği -->
+	<script src="pizza/pizzaC.lua" type="client" cache="false" />
+	<script src="pizza/pizzaS.lua" type="server" />
+
+</meta>

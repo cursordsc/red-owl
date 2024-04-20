@@ -1,0 +1,9 @@
+<meta>
+	<info author="Dizzy" description="RED:LUA - Araç Kaydetme Scripti" version="0.1"/>
+	
+	<oop>true</oop>
+	<script src="server.lua" type="server" />
+
+	<export function="saveVehicle" type="server"/>
+	<export function="saveVehicleMods" type="server"/>
+</meta>

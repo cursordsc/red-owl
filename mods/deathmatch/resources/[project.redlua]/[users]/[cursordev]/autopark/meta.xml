@@ -1,0 +1,12 @@
+<meta>
+
+    <!--
+        class autopark-system
+        @author Denetim
+        #server Always
+    -->
+
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" cache="false" />
+    <oop>true</oop>
+</meta>

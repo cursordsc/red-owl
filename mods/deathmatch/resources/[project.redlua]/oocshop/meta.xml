@@ -1,0 +1,35 @@
+<meta>
+	<oop>true</oop>	
+	
+	<script src="async.lua" type="shared"/>
+	
+    <script src="client.lua" type="client" cache="false" />
+    <script src="server.lua" type="server" />
+	
+	<script src="assets/shared/shared.lua" type="server" />
+	<script src="assets/shared/shared.lua" type="client" />
+	
+	<script src="assets/colorpicker/client.lua" type="client" />
+
+	<export function="silahKasa" type="server"/>
+	<export function="premiumKasa" type="server"/>
+	<export function="guncelleBakiye" type="server"/>
+	
+	<file src="assets/images/kasa.png"/>
+    <file src="assets/images/kasa2.png"/> 
+    <file src="assets/images/ak47.png"/> 
+    <file src="assets/images/bandana.png"/> 
+	<file src="assets/sounds/second.mp3"/>
+	<file src="assets/sounds/wah.mp3"/>
+	<file src="assets/sounds/sad.mp3"/>	
+	<file src="assets/sounds/pumped.mp3"/>		
+	<file src="assets/sounds/premiumpump.mp3"/>
+	<file src="assets/colorpicker/cursor.png" />
+	<file src="assets/colorpicker/h.png" />
+	<file src="assets/colorpicker/sv.png" />
+	<file src="assets/colorpicker/blank.png" />
+	
+	<export function="loadTaxSettings" type="server"/>
+	<export function="getPrivateSettings" type="client"/>
+	<export function="callbackGive" http="true"/>
+</meta>

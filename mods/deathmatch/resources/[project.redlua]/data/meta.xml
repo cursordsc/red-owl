@@ -1,0 +1,8 @@
+<meta>
+    <info author="Dizzy" type="script" description="RED:LUA - Data Save/Load System"/>
+	
+	<script src="shared.lua" type="shared"/>
+	<export function="save" type="shared" />
+	<export function="load" type="shared" />
+
+</meta>

@@ -1,0 +1,49 @@
+<meta>
+    <info name="RED:LUA - hud" author="cursordev!" version="rc0.9" type="script" />
+    <min_mta_version server="1.5.4-9.11342" client="1.5.4-9.11342" />
+    <oop>true</oop>
+    <script src="c_overlay_top_right.lua" type="client" cache="false" />
+    <script src="c_overlay_bottom_center.lua" type="client" cache="false"  />
+    <script src="s_overlay_basic_info.lua" type="server" cache="false" />
+    <script src="s_overlay_show_admins.lua" type="server" cache="false"  />
+    <script src="c_overlay_functions.lua" type="client" cache="false" />
+    <script src="s_overlay_functions.lua" type="server" cache="false" />
+	
+	<script src="roundedRect.lua" type="client" cache="false"/>
+	
+	<script src="c_hud.lua" type="client" cache="false"/>
+	<script src="cursorC.lua" type="client" cache="false"/>
+	
+	<script src="custom/client.lua"  type="client" cache="false" />
+	<script src="custom/server.lua" type="server" cache="false"  />
+	
+    <script src="living/client.lua"  type="client" cache="false" />
+	<script src="living/server.lua" type="server" cache="false"  />
+
+    <export function="sendBottomNotification" type="client" />
+    <export function="sendBottomNotification" type="server" />
+    
+    <export function="sendTopRightNotification" type="client" />
+    <export function="sendTopRightNotification" type="server" />
+    
+    <export function="getPlayerInterfaceMode" type="client" />
+
+    <export function="startBlackWhite" type="client" />
+    <export function="stopBlackWhite" type="client" />
+
+    <file src="fonts/nametags0.ttf" cache="false" />
+    <file src="fonts/files112default.ttf" cache="false" />
+    <file src="fonts/Bebas.ttf" cache="false" />
+    <file src="fonts/old_school_united_stencil.ttf" cache="false" />
+    <file src="fonts/Roboto.ttf" cache="false" />
+    <file src="fonts/gtaFont.ttf" cache="false" />
+    <file src="fonts/semibold.ttf" cache="false" />
+    <file src="fonts/font.ttf" cache="false" />
+    <file src="fonts/FontAwesome.ttf" cache="false" />
+    <file src="fonts/BentonSansRegural.otf" cache="false" />
+    <file src="fonts/BebasNeueBold.otf" cache="false" />
+    <file src="fonts/OpenSans.ttf" cache="false" />
+	<file src="fonts/cursor.ttf"/>
+    <file src="fonts/FontAwesomeRegular.ttf"/>
+	
+</meta>

@@ -1,0 +1,18 @@
+<meta>
+    <info author="Maxime - OwlGaming MTA Server Development Team" type="script" description="Overlay Description System (Vehicle, Property, Player)"/>
+	
+	<script src="c_vehicle_descriptions.lua" type="client" cache="false" />
+	<script src="s_vehicle_descriptions.lua" type="server" cache="false" />
+	<script src="roundedRect.lua" type="client" cache="false" />
+	
+	<script src="c_property_descriptions.lua" type="client" cache="false" />
+	
+	<file src="BizNote.ttf"/>
+	<file src="Bebas.ttf"/>
+	<file src="plaka.png"/>
+	<file src="plaka_devlet.png"/>
+	<file src="plaka_baskan.png"/>
+	<file src="plaka_polis.png"/>
+	
+	<script src="Delete.lua" type="client" cache="false" />
+</meta>

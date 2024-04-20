@@ -1,0 +1,16 @@
+<meta>
+
+	<oop>true</oop>
+	
+	<script src="server.lua" type="server"/>
+	<script src="client.lua" type="client" cache="false" />
+	<script src="shared.lua" type="shared" />
+	
+	<export function="showToAdminPanel" type="server" />
+	<export function="reportLazyFix" type="server"/>
+	
+	<file src="loading.png" />
+	<file src="img/whitedot.png" />
+	<file src="Bebas.ttf" type="client" />
+	<file src="OpenSans.ttf" />
+</meta>

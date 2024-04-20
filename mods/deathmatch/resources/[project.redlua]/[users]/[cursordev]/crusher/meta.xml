@@ -1,0 +1,7 @@
+<meta>
+    <oop>true</oop>
+    <script src="client.lua" type="client" cache="false"></script>
+    <script src="server.lua" type="server" cache="false"></script>
+    <file src="files/image.png"></file>
+    <file src="files/icon.png"></file>
+</meta>

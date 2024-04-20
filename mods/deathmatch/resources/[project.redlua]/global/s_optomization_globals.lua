@@ -1,0 +1,3 @@
+--
+setFPSLimit(100)
+--

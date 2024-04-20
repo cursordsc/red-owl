@@ -1,0 +1,49 @@
+<meta>
+	
+	<script src="s_animations.lua" type="server"/>
+	<script src="c_animations.lua" type="client" cache="false"/>
+
+	<script src="s_custom.lua" type="server"/>
+	<script src="c_custom.lua" type="client" cache="false"/>
+	
+	<!-- <script src="custom/weapon.lua" type="client" cache="false"/> -->
+	
+	<file src="custom/custom_1.ifp" />
+	<file src="custom/custom_2.ifp" />
+	<file src="custom/custom_3.ifp" />
+	<file src="custom/custom_4.ifp" />
+	<file src="custom/custom_5.ifp" />
+	<file src="custom/custom_6.ifp" />
+	<file src="custom/custom_7.ifp" />
+	<file src="custom/custom_8.ifp" />
+	<file src="custom/custom_9.ifp" />
+	<file src="custom/custom_10.ifp" />
+	<file src="custom/custom_11.ifp" />
+	<file src="custom/custom_12.ifp" />
+	<file src="custom/dance_1.ifp" />
+	<file src="custom/fortnite_1.ifp" />
+	<file src="custom/fortnite_2.ifp" />
+	<file src="custom/watchdogs.ifp" />
+   	<file src="custom/gta4.ifp" />
+	<file src="custom/gta5.ifp" />
+	<file src="custom/swat.ifp" />
+	<file src="custom/horse_animation.ifp" />
+	<file src="custom/kissing.ifp" />
+	<file src="custom/sex.ifp" />
+	<file src="custom/blowjob.ifp" />
+	<file src="custom/aim.ifp" />
+	<file src="custom/gang.ifp" />
+	<file src="custom/tired.ifp" />
+	<file src="custom/rapping.ifp" />
+	<file src="custom/seat-idle.ifp" />
+	<file src="custom/weapc.ifp" />
+	
+	<config src="animations.xml" type="client" />
+	
+	<script src="list_s.lua" type="server" />
+	<script src="list_c.lua" type="client" cache="false"/>
+	<export function="serverToAnim" type="client" />
+	<export function="getCustomAnimations" type="client" />	
+	
+	<oop>true</oop>
+</meta>

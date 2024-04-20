@@ -1,0 +1,7 @@
+<meta>
+    <oop>true</oop>
+    <script src='libs/classes.lua' type='client' cache='false'/>
+    <script src='vehicles.lua' type='shared'/>
+    <script src='src/create.lua' type='client' cache='false'/>
+    <script src='src/events.lua' type='server'/>
+</meta>
